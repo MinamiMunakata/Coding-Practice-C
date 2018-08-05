@@ -53,5 +53,6 @@ dkms.conf
 
 #custom
 .vscode/
+assaignment/
 0-demo.c
 1-print_demo.c
