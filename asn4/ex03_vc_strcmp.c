@@ -10,7 +10,9 @@
 
 int vc_strcmp(char *s1, char *s2) {
     int less;
-    int equal, greater, i;
+    int equal;
+    int greater;
+    int i;
     less = -1;
     equal = 0;
     greater = 1;

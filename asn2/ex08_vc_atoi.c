@@ -38,4 +38,3 @@ int vc_atoi(char *str) {
     }
     return num;
 }
-
