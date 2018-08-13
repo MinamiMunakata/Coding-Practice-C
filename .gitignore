@@ -56,3 +56,4 @@ dkms.conf
 assaignment/
 0-demo.c
 1-print_demo.c
+*.zip/
