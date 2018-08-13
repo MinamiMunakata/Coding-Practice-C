@@ -10,7 +10,11 @@
 
 void dec_to_hex(unsigned int dec)
 {
-    if (dec / 16 < 16) putchar(dec / 16 + '0');
+    if (dec / 16 < 16) 
+    {
+        if (dec / 16 < 10) putchar(dec / 16 + '0');
+        else putchar(dec / 16 + 87);
+    }
     else dec_to_hex(dec / 16);
     if (dec % 16 < 10) putchar(dec % 16 + '0');
     else putchar(dec % 16 + 87);
@@ -51,3 +55,4 @@ void *ft_print_memory(void *addr, unsigned int size)
     }
     return addr;
 }
+
